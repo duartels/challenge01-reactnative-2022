@@ -13,7 +13,6 @@ type Props = {
 }
 
 export const ToDoItem = ({ toDo, index, handleToggleToDo, handleRemoveToDo }: Props) => {
-
   const handleRemoveToDoItem = () => {
     Alert.alert("Remover", "Deseja remover essa tarefa?", [
       {
